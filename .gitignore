@@ -12,5 +12,4 @@ __pycache__/
 # Ignore environment and system files
 .DS_Store
 .env
-# created by virtualenv automatically
-.venv/bin
+
