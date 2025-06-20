@@ -1,0 +1,22 @@
+Generate a Python script that uses Playwright (sync API) to do the following test:
+
+1. Open the Chrome browser in headful mode using webdriver-manager.
+2. Define a list of language codes: ['zh-cn', 'ja-jp', 'fr-fr', 'de-de'].
+3. For each language code:
+   - Visit the URL https://learn.microsoft.com/{lang}
+   - Wait for the page to load
+   - Print the page title
+   - Use the provided `detect_language` tool to detect the language of the title
+   - Print the detected languageÍ
+‹
+Assume `detect_language(text: str)` is already implemented.
+
+Use webdriver-manager to manage the ChromeDriver.
+Make sure the script handles driver initialization and quitting properly.
+
+
+After writing the script, assign it to a string variable named `script_content`, then call the `save_script_to_tests_folder` tool with:
+- `script=script_content`
+- `filename="HF_Selenium_homepage.py"`
+
+This will save the script in the tests/ folder.

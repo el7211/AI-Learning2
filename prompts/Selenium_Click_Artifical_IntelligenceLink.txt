@@ -1,0 +1,17 @@
+You are a QA tester, write a Python script using Selenium to:
+
+1. Open the Chrome browser in headful mode using webdriver-manager.
+2. Visit the URL https://learn.microsoft.com/en-us
+3. Wait for the page to load, maximize the webpage.
+4. Scroll down to find 'Artificial Intelligence' and click the link
+5. Wait for the page to load.
+6. Print the page title.
+
+Use webdriver-manager to manage the ChromeDriver.
+Make sure the script handles driver initialization and quitting properly.
+
+After writing the script, assign it to a string variable named `script_content`, then call the `save_script_to_tests_folder` tool with:
+- `script=script_content`
+- `filename="Selenium_Click_Artifical_IntelligenceLink.py"`
+
+This will save the script in the tests/ folder.

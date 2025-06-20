@@ -1,0 +1,18 @@
+Generate a Python script that uses Playwright (sync API) to do the following test:
+
+1. Launch the Chromium browser in **headful mode** and **maximize the window** by passing `args=["--start-maximized"]` to `launch()` and setting `no_viewport=True` in `new_context()`.
+2. Visit the URL https://learn.microsoft.com/en-us
+3. Wait for the page to load.
+4. Wait 5 seconds, find the search box(xpath=//*[@id='welcome-page-search-form-autocomplete-input), input 'Azure'
+5. Click Enter
+5. Wait for the page to load
+6. capture the screenshot, name it '002.png'
+7. save the screenshot to the screenshots folder.
+
+
+After writing the script, assign it to a string variable named `script_content`, then call the `save_script_to_tests_folder` tool with:
+- `script=script_content`
+- `filename="Azure_homepage_searchAzure.py"`
+
+This will save the script in the tests folder.
+Save the '002.png' under tests/screenshots folder.
