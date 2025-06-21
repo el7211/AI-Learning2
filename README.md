@@ -1,4 +1,4 @@
-# AI_Learning2
+# AI-Learning2
 
 This project demonstrates the use of AI agents to automate web testing workflows. The architecture includes modular agents powered by different AI models, prompt templates for task definitions, and test scripts generated from agent outputs.
 
